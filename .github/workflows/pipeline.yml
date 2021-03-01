@@ -33,3 +33,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fso-pokedex-tf"
           heroku_email: "fretztyler@gmail.com"
+          healthcheck: "https://fso-pokedex-tf.herokuapp.com/health"
+          checkstring: "ok"
