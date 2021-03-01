@@ -47,3 +47,4 @@ jobs:
           healthcheck: "https://fso-pokedex-tf.herokuapp.com/health"
           checkstring: "ok"
           rollbackonhealthcheckfailed: true
+          
