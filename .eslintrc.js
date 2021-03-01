@@ -6,7 +6,7 @@ module.exports = {
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/all"
+    "plugin:react/recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
